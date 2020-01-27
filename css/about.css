@@ -1,0 +1,108 @@
+/*fonts*/
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Vidaloka', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Quantico', sans-serif;
+font-family: 'Ultra', serif;
+font-family: 'Tangerine', cursive;
+font-family: 'Merienda', cursive;
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    overflow-x: hidden;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.815);
+    /*background: -webkit-linear-gradient(45deg, rgb(83, 161, 9),
+            rgb(58, 212, 233), rgb(51, 13, 121));*/
+}
+
+.icon {
+    height: 40px;
+    padding-right: 5px;
+}
+
+header .nav-item {
+    padding: 5px;
+    padding-right: 15px;
+}
+
+header .nav-link {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Merienda', cursive;
+
+}
+
+header a {
+    font-weight: bold;
+    font-family: 'Merienda', cursive;
+    color: whitesmoke;
+}
+
+header a:hover {
+    color: gold;
+}
+
+
+/*main
+.cover {
+    background-image: url(images/cake13.jpg);
+    background-repeat: no-repeat;
+
+}*/
+
+
+
+/*footer*/
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 8vmin;
+    padding-bottom: 0px;
+
+}
+
+footer h3 {
+    font-family: 'Merienda', cursive;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: whitesmoke;
+}
+
+footer .input-group .input-group-text {
+    background: whitesmoke;
+}
+
+footer .column i {
+    color: whitesmoke;
+}
+
+footer .column i:hover {
+    color: gold;
+}
+
+footer .column i+i {
+    padding: 0.5em;
+}
+}

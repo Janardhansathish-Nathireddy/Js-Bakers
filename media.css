@@ -1,0 +1,174 @@
+/*Small Devices*/
+@media (min-width:1px) and (max-width:767px) {
+    body {
+
+        background: rgba(0, 0, 0, 0.815) !important;
+    }
+
+    h1 {
+        color: #FFD700;
+    }
+
+    main .carousel-inner img {
+        width: 100%;
+        height: 350px !important;
+    }
+
+    .section-1 img {
+        width: 100%;
+        height: 100%;
+        padding: 15px !important;
+    }
+
+    .section-1 h3 {
+
+        color: #e8f766;
+        padding-bottom: 25px;
+    }
+
+    .section-1 .prgf {
+        margin-top: 2em;
+        text-align: justify;
+        color: #e8f766;
+        padding: 10px;
+
+    }
+
+    .section-1 .prgf1 {
+        text-align: justify;
+        color: #e8f766;
+        padding: 10px;
+
+    }
+
+    .section-1 a {
+        color: #e8f766 !important;
+    }
+
+    .product .product1 {
+        padding: 10px !important;
+    }
+
+    .product .card-img {
+        border-top-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+    }
+
+    .product1 .img-card {
+        border-top-left-radius: 45px;
+
+    }
+
+    .product a {
+        color: #28a745;
+    }
+
+    .product1 {
+        border-top-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+    }
+
+
+    .section-2 img {
+        border-top-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        padding: 10px !important;
+    }
+
+    .section-3 .card2 {
+        width: 90% !important;
+        margin-top: 1.5em;
+        padding: initial;
+        margin-left: 1em;
+        border-top-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+
+    }
+
+    .section-3 .cardslider {
+        display: none;
+    }
+
+    .section-3 .cardslider1 {
+        display: none;
+    }
+
+    .section-3 .testimonials {
+        font-size: 30px !important;
+    }
+
+    footer .social i {
+        padding: 13px;
+
+    }
+
+}
+
+
+@media (min-width:767px) and (max-width:991px) {
+
+    main .carousel-inner img {
+        width: 100%;
+        height: 500px !important;
+    }
+
+    .section-1 img {
+        width: 100%;
+        height: 100%;
+        padding: 3em;
+
+    }
+
+    .section-1 h3 {
+        margin-top: 3em;
+        padding-bottom: 2em;
+    }
+
+    .section-1 .prgf {
+        margin-top: 2em;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .section-1 .prgf1 {
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .product .product1 {
+        padding: 10px !important;
+    }
+
+    .section-2 img {
+        width: 100%;
+        padding: 5px !important;
+    }
+
+    .section-3 .cardslider {
+        display: none;
+    }
+
+    footer .social {
+        text-align: center;
+        width: 100px;
+        margin-left: 3.5em;
+    }
+
+    footer .social i {
+        padding: 15px;
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    footer .social {
+        width: 150px;
+        margin-left: 2.5em;
+    }
+
+    footer .social i {
+        padding: 15px;
+        font-size: 30px !important;
+    }
+}

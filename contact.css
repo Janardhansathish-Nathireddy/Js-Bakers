@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background: rgba(54, 39, 24, 0.815);
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    color: #FFD700;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+header {
+    text-align: center;
+}
+
+header .nav-item {
+    padding-right: 15px;
+}
+
+header .nav-link {
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Philosopher', sans-serif;
+}
+
+header a {
+    font-weight: bold;
+    font-family: 'Merienda', cursive;
+    color: #FFD700;
+
+}
+
+header span {
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+
+header a:hover {
+    color: #28a745;
+}
+
+
+
+
+/*CONTACT*/
+.main-img {
+    background-image: url(images/bg21.jpg);
+    margin-bottom: 3em;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    object-fit: cover;
+    opacity: 0.7;
+    background-size: cover;
+
+}
+
+.main-img h1 {
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    color: rgba(248, 204, 8, 0.993);
+    font-size: 4em;
+    letter-spacing: 3px;
+    padding-top: 1em;
+}
+
+.contactform {
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+h5 {
+    font-family: 'Philosopher', sans-serif;
+    color: #FFD700;
+}
+
+h4 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.social i {
+    color: rgb(58, 25, 23);
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+/*footer*/
+.text1 {
+    padding: 2em;
+    background: #212529;
+}
+
+/*Media Queries*/
+@media (min-width:1px) and (max-width:1023px) {
+    .card-title {
+        padding-top: 3em;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1279) {
+    .card-title {
+        margin-bottom: 2.3rem;
+    }
+}
